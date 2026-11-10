@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">MIPT_PD_3</string>
+    <string name="btnStrMC">MC</string>
+    <string name="btnStr0">0</string>
+    <string name="btnStrMR">MR</string>
+    <string name="btnStrMS">MS</string>
+    <string name="btnStrMP">M+</string>
+    <string name="btnStrMM">M-</string>
+    <string name="btnStrArrow"><![CDATA[<-]]></string>
+    <string name="btnStrCE">CE</string>
+    <string name="btnStrC">C</string>
+    <string name="btnStrPlusMinus">±</string>
+    <string name="btnStrSqrt">√</string>
+    <string name="btnStr7">7</string>
+    <string name="btnStr8">8</string>
+    <string name="btnStr9">9</string>
+    <string name="btnStrDivide">/</string>
+    <string name="btnStrPercent">%</string>
+    <string name="btnStr4">4</string>
+    <string name="btnStr5">5</string>
+    <string name="btnStr6">6</string>
+    <string name="btnStrMultiply">*</string>
+    <string name="btnStrTrupmena">1/x</string>
+    <string name="btnStr1">1</string>
+    <string name="btnStr2">2</string>
+    <string name="btnStr3">3</string>
+    <string name="btnStrMinus">-</string>
+    <string name="btnStrEquals">=</string>
+    <string name="btnStrDot">.</string>
+    <string name="btnStrPlus">+</string>
+</resources>
