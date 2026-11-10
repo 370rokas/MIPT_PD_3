@@ -27,6 +27,10 @@ class CalcDisplay(private val displayText: TextView) {
 
 
     fun pop() {
+        if (currentNumberStr.toDoubleOrNull() == null) {
+            set("0")
+            return
+        }
         val result = currentNumberStr.dropLast(1)
 
         if (result.isEmpty() || result == "-") {
@@ -41,6 +45,10 @@ class CalcDisplay(private val displayText: TextView) {
     }
 
     fun negate() {
+        if (currentNumberStr.toDoubleOrNull() == null) {
+            set("0")
+            return
+        }
         if (currentNumberStr == "0") return
 
         if (currentNumberStr.startsWith("-")) {
@@ -63,7 +71,8 @@ class CalcDisplay(private val displayText: TextView) {
 
     fun setNumber(value: Double) {
         if (value.isNaN() || value.isInfinite()) {
-            set("Error")
+            var errorText = displayText.context.getString(R.string.error);
+            set(errorText)
         } else if (value % 1.0 == 0.0 && kotlin.math.abs(value) < 1e15) {
             set(value.toLong().toString())
         } else {

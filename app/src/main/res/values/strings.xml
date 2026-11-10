@@ -28,4 +28,5 @@
     <string name="btnStrEquals">=</string>
     <string name="btnStrDot">.</string>
     <string name="btnStrPlus">+</string>
+    <string name="error">Error</string>
 </resources>
